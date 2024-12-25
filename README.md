@@ -1,0 +1,3 @@
+# Tailwind CSS `@apply` Directive Error
+
+This repository demonstrates a common error when using Tailwind CSS's `@apply` directive. The `@apply` directive is intended to be used within your CSS files to apply pre-defined utility classes to custom styles. However, using `@apply` directly within HTML elements, as shown in the provided code samples, is incorrect and usually leads to unexpected styles or build errors depending on your setup. The solution involves correctly applying classes using Tailwind's utility classes directly within the HTML or moving `@apply` usage to your CSS.
